@@ -640,6 +640,10 @@ footer .menu-footer ul li a {
     .room-text{
         text-align: justify;
     }
+    .title-facilities{
+        font-size: 30px;
+        line-height:normal;
+    }
 }
 @media (max-width: 662px) {
     footer {
@@ -699,6 +703,7 @@ footer .menu-footer ul li a {
         line-height: normal;
         margin-top: 1rem;
     }
+
     .mt-6 {
         margin-top: 1rem !important;
     }
