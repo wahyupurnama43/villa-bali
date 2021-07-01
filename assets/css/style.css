@@ -730,6 +730,12 @@ footer .menu-footer ul li a {
         width: 93%;
         text-align: justify;
     }
+    .eye-catching h1{
+        padding-top: 5px;
+    }
+    .eye-catching h5{
+        font-size: 15px;
+    }
     
 }
 
