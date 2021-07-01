@@ -231,7 +231,7 @@ nav ul li a {
 /*content*/
 .title-content,
 .title-content span {
-    font-family: " Noto Serif";
+    font-family: 'Noto Serif', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -325,8 +325,8 @@ nav ul li a {
 }
 .special-packages h3{
     font-weight: 600;
-    font-family: Noto Serif;
-    font-size: 35px;
+     font-family: 'Noto Serif', serif;    
+     font-size: 35px;
     line-height: 65px;
     text-align: center;
     color: #FFFFFF;
@@ -358,7 +358,7 @@ nav ul li a {
   transition: opacity 0.2s, transform 0.3s;
 }
 .box h2 {
-    font-family: Noto Serif;
+    font-family: 'Noto Serif', serif;
     font-style: normal;
     font-weight: 600;
     font-size: 35px;
