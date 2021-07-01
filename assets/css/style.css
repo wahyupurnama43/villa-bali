@@ -247,12 +247,14 @@ nav ul li a {
     font-family: "Noto Serif", serif;
     font-weight: 600;
 }
-.opening-tittle p {
+.opening-tittle p{
     font-size: 18px;
     line-height: 33px;
     padding-top: 20px;
     text-align: justify;
-
+}
+.faciliti p{
+    text-align: center;
 }
 .line-title-content {
     content: " ";
@@ -707,10 +709,17 @@ footer .menu-footer ul li a {
     .mt-6 {
         margin-top: 1rem !important;
     }
-    .opening-tittle p {
+    .opening-tittle p{
         font-size: 16px;
         line-height: normal;
     }
+    .faciliti p {
+        font-size: 16px;
+        line-height: normal;
+        text-align: justify !important;
+        padding-bottom:12px;
+    }
+
     .opening {
         flex-wrap: wrap-reverse !important;
     }
