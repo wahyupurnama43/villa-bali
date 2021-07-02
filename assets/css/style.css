@@ -548,7 +548,43 @@ footer .menu-footer ul li a {
     color:#b7a261;
     font-weight: 600;
 }
+/*CONTACT US*/
 
+.contact ul li{
+    list-style-type: none;
+    padding:5px 0;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: normal;
+    color: #222222
+}
+.contact .judul-contact{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 174.7%;
+    color: #222222;
+    margin-top:10px;
+}
+.contact ul li svg{
+    margin-right: 4px;
+    width: 20px;
+}
+button.btn{
+    margin-top: 15px;
+    background: #B7A261;
+box-shadow: 5px 8px 50px rgba(167, 167, 167, 0.25);
+border-radius: 5px;
+color: #fff;
+transition: all .5s ease-in-out;
+}
+button.btn:hover{
+    color: #fff;
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
 /*responsive*/
 
 @media (max-width: 1140px) {
@@ -672,6 +708,12 @@ footer .menu-footer ul li a {
     .title-facilities{
         font-size: 30px;
         line-height:normal;
+    }
+    .contact{
+        text-align: center;
+    }
+    .contact img{
+        margin-top:20px;
     }
 }
 @media (max-width: 662px) {
