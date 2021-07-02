@@ -14,13 +14,12 @@
         <link rel="stylesheet" href="./assets/css/owl.carousel.min.css" />
         <link rel="icon" href="./assets/img/logo.png">
         <style>
-            body{
-                overflow-x:hidden !important;
+            .form-select,.form-control{
+                border: 1px solid #b7a261;
             }
         </style>
-        
     </head>
-    <body class="position-relative ">
+    <body class="position-relative">
         <!-- START : NAVBAR -->
         <nav class="menu ">
             <div class="menu-toggle">
@@ -41,16 +40,16 @@
                         <a href="room.html" class="" >Room</a>
                     </li>
                     <li data-aos="fade-down" data-aos-delay="700">
-                        <a  href="facilities.html">Facilities</a>
+                        <a  href="facilities.html" >Facilities</a>
                     </li>
                     <li class="mobile-show">
                         <a  href="gallery.html" class="">Gallery</a>
                     </li>
                     <li class="mobile-show">
-                        <a  href="contact.html" class="active">Contact</a>
+                        <a  href="contact.html" class="">Contact</a>
                     </li>
                     <li class="mobile-show">
-                         <a  href="reservation.html" >Reservation</a>
+                        <a  href="reservation.html" class="active">Reservation</a>
                     </li>
                 </ul>
                 <div class="logo-img">
@@ -61,10 +60,10 @@
                         <a href="gallery.html">Gallery </a>
                     </li>
                     <li class="" data-aos="fade-down" data-aos-delay="600">
-                        <a  href="contact.html" class="active">Contact</a>
+                        <a  href="contact.html">Contact</a>
                     </li>
                     <li class="" data-aos="fade-down" data-aos-delay="700">
-                        <a  href="reservation.html" >Reservation</a>
+                        <a  href="reservation.html" class="active">Reservation</a>
                     </li>
                 </ul>
             </div>
@@ -118,44 +117,54 @@
         <!-- START : EYE CATHCING -->
         <section class="container mt-6 eye-catching">
              <h5 class="text-center sub-title-content">Villa <span class="text-primary-villa">Bali</span></h5>
-             <h1 class="text-center">Contact Us</h1>
+             <h1 class="text-center">Reservation</h1>
               <div class="line-title-content"></div>
 
-              <div class="row contact">
-                  <div class="col-lg-6 my-auto">
-                      <ul>
-                          <li class="judul-contact">Mailing Address</li>
-                          <li>Jl. Ubud 123B</li>
-                          <li>ubud, Bali 80361, Indonesia</li>
-                      </ul>
-                      <ul>
-                          <li class="judul-contact">Reservations</li>
-                          <li>+62 361 756276 / +62 361 768172</li>
-                      </ul>
-                      <ul>
-                        <li>
-                            <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M22.5 4.5H4.5C3.2625 4.5 2.26125 5.5125 2.26125 6.75L2.25 20.25C2.25 21.4875 3.2625 22.5 4.5 22.5H22.5C23.7375 22.5 24.75 21.4875 24.75 20.25V6.75C24.75 5.5125 23.7375 4.5 22.5 4.5ZM22.5 9L13.5 14.625L4.5 9V6.75L13.5 12.375L22.5 6.75V9Z" fill="#222222"/>
-                            </svg>experience.exmple@vilabali.com
-                        </li>
-                      </ul>
-                      <button class="btn">SEND MESSAGE</button>
-                  </div>
-                  <div class="col-lg-6 my-auto">
-                      <img src="./assets/img/contact.jpg" alt="" class="w-100 ">
-                  </div>
-              </div>
+              <form action="" class="form-contact mt-6">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Choose Room</label>
+                                  <select class="form-select" aria-label="Default select example">
+                                      <option selected>Open this select Room</option>
+                                      <option value="1">One</option>
+                                      <option value="2">Two</option>
+                                      <option value="3">Three</option>
+                                    </select>
+                                </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                             <div class="mb-3">
+                                <label for="date" class="form-label">Check In</label>
+                                <input type="date" class="form-control" id="date" aria-describedby="date">
+                              </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                             <div class="mb-3">
+                                <label for="Check-Out" class="form-label">Check Out</label>
+                                <input type="date" class="form-control" id="Check-Out" aria-describedby="date">
+                              </div>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                             <div class="mb-3">
+                                <label for="Adults" class="form-label">Adults</label>
+                                <input type="number" class="form-control" id="Adults" aria-describedby="Adults">
+                              </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12">
+                              <div class="mb-3">
+                                <label for="Children" class="form-label">Children</label>
+                                <input type="number" class="form-control" id="Children" aria-describedby="Children">
+                              </div>
+                        </div>
+                        <div class="col-lg-12 col-md-12 col-sm-12 mx-auto">
+                            <button class="btn w-100">SEND MESSAGE</button>
+                        </div>
+                    </div>
+              </form>
         </section>
         <!-- END : EYE CATHCING -->
-
-        <!-- MAPS -->
-        <div class="row mt-6">
-            <div class="col-12">
-                 <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15778.900299515868!2d115.17705839999999!3d-8.62237095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd2397acb93021f%3A0xd3b8c325c73a5b5c!2sSMPN%202%20Kuta%20Utara!5e0!3m2!1sid!2sid!4v1625196202646!5m2!1sid!2sid" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-        </div>
-        <!-- MAPS -->
-
 
         <!-- START : FOOTER -->
         <footer>

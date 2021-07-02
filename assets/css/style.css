@@ -585,6 +585,10 @@ button.btn:hover{
          -o-transform: scale(1.1);
             transform: scale(1.1);
 }
+.form-contact{
+    width: 50%;
+    margin: 0 auto;
+}
 /*responsive*/
 
 @media (max-width: 1140px) {
@@ -714,6 +718,10 @@ button.btn:hover{
     }
     .contact img{
         margin-top:20px;
+    }
+    .form-contact{
+        width: 100%;
+        margin: 0 auto;
     }
 }
 @media (max-width: 662px) {
